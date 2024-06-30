@@ -1,0 +1,32 @@
+html {
+    background-color: black;
+
+}
+div {
+    width: 50%;
+  margin: 0 auto; /* Centra el div horizontalmente */
+  border: 2px solid black; /* Opcional: para ver claramente el contenedor */
+  padding: 20px; /* Opcional: para agregar espacio dentro del contenedor */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+    height: 100%;
+    border: 5px solid white;
+}
+
+div > p, h1 {
+    color: white;
+    font-family: "Libre Baskerville", regular;
+    
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+p {
+    text-transform: capitalize;
+}
